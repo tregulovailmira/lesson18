@@ -1,0 +1,30 @@
+form {
+    padding: 10px;
+    border: 1px solid blue;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.textDiv {
+    min-height: 20px;
+    border: 1px solid black;
+}
+
+.textDiv, .input, .submitButton {
+    margin: 10px;
+}
+
+.listWrapper {
+    margin-top: 10px;
+    padding: 10px 0;
+    max-width: 500px;
+    border: 1px solid blue;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.deleteButton {
+    margin-left: 15px;
+}
