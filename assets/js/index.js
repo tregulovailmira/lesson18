@@ -42,7 +42,7 @@ submitButton.classList.add('submitButton');
 
 submitButton.addEventListener('click', (event) => {
     event.preventDefault();
-    const inputValueArray = input.value.split(' ');
+    const inputValueArray = input.value.split(' ').filter(Boolean);
     if (inputValueArray.length >= 3) {
         console.log(inputValueArray);
         let elementId = 1;
